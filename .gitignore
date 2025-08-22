@@ -1,0 +1,37 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs and temp
+*.log
+*.tmp
+
+# Images (si ya están embebidas)
+logo.png
+icono.ico
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

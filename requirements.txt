@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Interfaz gráfica
+customtkinter>=5.2.2
+tk  # (ya viene incluido en la mayoría de instalaciones de Python, pero lo agrego por claridad)
+
+# Procesamiento de XML
+lxml>=5.2.2   # más rápido y robusto que xml.etree.ElementTree (opcional, si quieres optimizar)
+
+# Manejo de datos y exportación a Excel
+pandas>=2.2.2
+openpyxl>=3.1.5   # necesario para exportar DataFrames a Excel
+
+# Manejo de imágenes (para el logo en la UI)
+Pillow>=10.4.0
+# Nota: Asegúrate de instalar estas dependencias en tu entorno de desarrollo.
